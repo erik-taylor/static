@@ -3,7 +3,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"compi
 
   return "<footer class=\"panel color_4 dark text_center\" style=\"background-color: "
     + alias4(((helper = (helper = helpers.footer_background_color || (depth0 != null ? depth0.footer_background_color : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"footer_background_color","hash":{},"data":data}) : helper)))
-    + "\">\n	<div class=\"panel_body\">\n		<div class=\"credits\">&copy;"
+    + ";\">\n	<div class=\"panel_body\">\n		<div class=\"credits\">&copy;"
     + alias4(((helper = (helper = helpers.footer_text || (depth0 != null ? depth0.footer_text : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"footer_text","hash":{},"data":data}) : helper)))
     + " All Rights Reserved</div>\n		<div class=\"wedge-2x\"></div>\n	</div>\n</footer>";
 },"useData":true}); });
