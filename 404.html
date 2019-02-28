@@ -33,7 +33,7 @@
 		
 						<div class="contentbox">
 							<div class="contentbox_content">
-								<h1>Pump those brakes!</h1>
+								<h1>Pump those brakes!</h1>							
 								<p>You found the 404 page. There's not much to see here, so how about you click <a href="/"><strong>here</strong></a> to back to the homepage?</p>
 							</div>
 						</div>
@@ -43,7 +43,15 @@
 		
 				<footer class="panel color_4 dark text_center" style="background-color: #5e5e5e;">
 					<div class="panel_body">
-						<div class="credits">&copy;2019 All Rights Reserved</div>
+						<div class="credits">
+							&copy; 
+						
+							<span id="copyright">
+				        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+				    	</span> 
+
+							All Rights Reserved
+						</div>
 						<div class="wedge-2x"></div>
 					</div>
 				</footer>
